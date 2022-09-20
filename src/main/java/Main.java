@@ -3,7 +3,7 @@ public class Main {
         JavaGenerics.printArrayContent(new Integer[]{12,324,6,7900});
         JavaGenerics.printArrayContent(new String[]{"Messi","Ronaldo", "Haaland", "Jesus"});
         System.out.println();
-        
+
         GenericClass<Content> stringInstance = new GenericClass<Content>();
         stringInstance.set("Test");
         stringInstance.get();
