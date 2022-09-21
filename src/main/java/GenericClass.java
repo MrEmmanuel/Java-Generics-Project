@@ -1,8 +1,8 @@
-public class GenericClass <Content>{
+public class GenericClass <C>{
 
-    private Object content;
+    private C content;
 
-    public void set(Object object){
+    public void set(C object){
         this.content = object;
     }
 
